@@ -1,0 +1,765 @@
+/* Website template by freewebsitetemplates.com */
+body {
+	background: #FFF;
+	color: #ab967f;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+}
+a {
+	outline: none;
+}
+img {
+	border: 0;
+}
+p a {
+	color: #ab967f;
+}
+p a:hover {
+	color: #ff8400;
+}
+#header {
+	min-height: 300px;
+	position: relative;
+}
+#header div.section {
+	background: none;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 960px;
+}
+#header div.section a {
+	display: inline-block;
+	float: left;
+}
+#header div.section a {
+	margin: 21px 0 0;
+}
+#header div.section ul {
+	float: right;
+	list-style: none;
+	margin: 54px 0 0;
+	padding: 0;
+}
+#header div.section ul li {
+	float: left;
+}
+#header div.section ul li.current a {
+	background: url(../assets/images/interface.png) no-repeat 0 -521px;
+	color: #1f1005;
+	text-shadow: 0 1px #ffc600;
+}
+#header div.section ul li a {
+	display: block;
+	color: #839a00;
+	float: none;
+	font-size: 16px;
+	height: 49px;
+	line-height: 49px;
+	margin: 0;
+	text-align: center;
+	text-decoration: none;
+	text-transform: capitalize;
+	width: 130px;
+}
+#header div#figure {
+	background: url(../assets/images/babytree.jpg) no-repeat center;
+	height: 587px;
+	margin: 0;
+	padding: 0 0 35px;
+	position: relative;
+	width: auto;
+	z-index: 2;
+}
+#header div#figure div {
+	height: 562px;
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+}
+#header div#figure div div {
+	height: auto;
+	margin: 0;
+	position: absolute;
+	right: 0;
+	top: 310px;
+	width: 300px;
+	z-index: 2;
+}
+#header div#figure div span {
+	background: url(../assets/images/interface.png) no-repeat 0 -585px;
+	bottom: 0;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	position: static;
+	top: 0;
+	width: 290px;
+}
+#header div#figure div span a {
+	color: #1f1005;
+	display: block;
+	float: none;
+	font-size: 25px;
+	margin: 0;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 1px #ffc600;
+	text-transform: lowercase;
+}
+#header div#figure div ul {
+	float: none;
+	list-style: none;
+	margin: 25px 10px 0 0;
+	padding: 0 40px 0 20px;
+}
+#header div#figure div ul li {
+	background:url(../assets/images/interface.png) no-repeat 220px 12px;
+	display: block;
+	float: none;
+	margin: 10px 0;
+	padding: 0 25px 0 0;
+	text-align: right;
+	text-indent: 48px;
+	width: 210px;
+}
+#header div#figure div ul li a {
+	color: #b4b4b4;
+	font-size: 14px;
+	height: auto;
+	line-height: 18px;
+	text-decoration: none;
+	text-transform: none;
+	width: auto;
+}
+#header div#figure div ul li.current,
+#header div#figure div ul li:hover {
+	background:url(../assets/images/interface.png) no-repeat 220px -46px;
+}
+#header div#figure div ul li a:hover {
+	color: #8aa80e;
+	text-shadow: none;
+}
+#header div#subscribenow {
+	height: 210px;
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+}
+#header div#subscribenow a {
+	background: url(../assets/images/interface.png) no-repeat 0 -650px;
+	top: 15px;
+	color: #1f1005;
+	display: block;
+	font-size: 25px;
+	height: 154px;
+	line-height: 240px;
+	position: absolute;
+	right: -4px;
+	text-decoration: none;
+	text-indent: 60px;
+	text-shadow: 0 1px #ffc600;
+	text-transform: lowercase;
+	width: 294px;
+	z-index: 2;
+}
+#header span {
+	background: url(../assets/images/bg-grass.png) repeat-x center bottom;
+	bottom: -80px;
+	height: 243px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+#body {
+	background: url(../assets/images/bg-soil.jpg) repeat;
+	overflow: hidden;
+}
+#body div {
+	background: url(../assets/images/shadowbottom.png) repeat-x left bottom;
+	width: 100%;
+}
+#body div div {
+	background: none;
+	margin: 60px auto 0;
+	padding: 0 0 40px;
+	position: relative;
+	z-index: 2;
+	width: 960px;
+}
+#body div div div {
+	display: inline-block;
+	margin: 0;
+	width: 960px;
+}
+#body div div div div#content {
+	float: left;
+	margin: 0;
+	position: static;
+	width: 620px;
+}
+#body div div div div#content h2 {
+	background: url(../assets/images/interface.png) no-repeat 0 -416px;
+	color: #1f1005;
+	font-size: 25px;
+	font-style: italic;
+	height: 90px;
+	left: 0;
+	line-height: 118px;
+	margin: 0;
+	position: absolute;
+	text-align: center;
+	text-shadow: 0 1px #ffc600;
+	top: -58px;
+	width: 162px;
+	z-index: 3;
+}
+#body div div div div#content div {
+	background: url(../assets/images/bg-content.png) repeat;
+	border-radius: 15px;
+	height: auto;
+	letter-spacing: 0.05em;
+	margin: 0 0 0 10px;
+	padding: 45px 30px 25px 20px;
+	width: 570px;
+}
+#body div div div div#content div p {
+	line-height: 24px;
+	margin: 0;
+	padding: 40px 0 0;
+}
+#body div div div div#content div p:first-child,
+#body div div div div#content div#about p,
+#body div div div div#content div#about h3:first-child,
+#body div div div div#content div#contactus h3:first-child {
+	padding: 0;
+}
+#body div div div div#content div#about,
+#body div div div div#content div#contactus {
+	min-height: 680px;
+}
+#body div div div div#content div#about h3 {
+	padding: 40px 0 0;
+}
+#body div div div div#content div#contactus {
+	padding: 40px 0 20px 60px;
+	width: 560px;
+}
+#body div div div div#content div#contactus h3 {
+	padding: 60px 0 0;
+}
+#body div div div div#content div#contactus p {
+	padding: 0 0 0 30px;
+}
+#body div div div div#content div#contactus b {
+	display: block;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0 0 0 30px;
+}
+#body div div div div#content div ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#body div div div div#content div ul li {
+	display: block;
+	margin: 45px 0 0;
+	overflow: hidden;
+}
+#body div div div div#content div ul li:first-child {
+	margin: 0;
+}
+#body div div div div#content div ul li div {
+	background: none;
+	border-radius: 0;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 380px;
+}
+#body div div div div#content div ul li img.figure {
+	display: block;
+	float: left;
+	margin: 5px 10px 0 0;
+}
+#body div div div div#content div ul li div p {
+	padding: 0;
+}
+#body div div div div#content div h3 {
+	color: #daec18;
+	font-size: 20px;
+	margin: 0;
+}
+#body div div div div#content div#blog {
+	background: none;
+	border-radius: 0;
+	margin: 0;
+	padding: 20px 0 25px;
+	width: 642px;
+}
+#body div div div div#content div#blog ul li {
+	display: block;
+	height: auto;
+	margin: 20px 0 0;
+	position: relative;
+	width: 620px;
+}
+#body div div div div#content div#blog ul li div {
+	float: none;
+	height: 165px;
+	padding: 25px 0 0 18px;
+	width: 602px;
+}
+#body div div div div#content div#blog ul li div.connect {
+	float: right;
+	height: 29px;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	right: 25px;
+	top: 0;
+	width: auto;
+}
+#body div div div div#content div#blog ul li div.connect a {
+	display: block;
+	float: left;
+	height: 29px;
+	text-indent: -99999px;
+}
+#body div div div div#content div#blog ul li div.connect a.twitter {
+	background: url(../assets/images/icons.png) no-repeat 0 3px;
+	width: 26px;
+}
+#body div div div div#content div#blog ul li div.connect a.heart {
+	background: url(../assets/images/icons.png) no-repeat 0 -31px;
+	width: 23px;
+}
+#body div div div div#content div#blog ul li div.connect a.facebook {
+	background: url(../assets/images/icons.png) no-repeat 0 -68px;
+	width: 29px;
+}
+#body div div div div#content div#blog ul li div h1 {
+	font-size: 22px;
+	font-style: italic;
+	margin: 0 0 10px;;
+}
+#body div div div div#content div#blog ul li div h1 a {
+	color: #ff8400;
+	text-decoration: none;
+}
+#body div div div div#content div#blog ul li div p {
+	width: 260px;
+}
+#body div div div div#content div#blog ul li div#applerecipe {
+	background: url(../assets/images/bg-applesalad.png) no-repeat;
+}
+#body div div div div#content div#blog ul li div#cakeapple {
+	background: url(../assets/images/bg-appledessert.png) no-repeat;
+}
+#body div div div div#content div#blog ul li div#healthy {
+	background: url(../assets/images/bg-applecake.png) no-repeat;
+}
+#body div div div div#content div#blog div#paging {
+	background: none;
+	border-radius: 0;
+	float: right;
+	height: 56px;
+	font-size: 18px;
+	margin: 30px 0 0;
+	overflow: hidden;
+	padding: 0;
+	text-shadow: 0 1px #FFCF2A;
+	width: auto;
+}
+#body div div div div#content div#blog div#paging span {
+	background: url(../assets/images/interface.png) no-repeat 0 -956px;
+	float: left;
+	display: block;
+	height: 56px;
+	line-height: 45px;
+	text-align: center;
+	width: 115px;
+}
+#body div div div div#content div#blog div#paging span a {
+	color: #1f1005;
+	text-decoration: none;
+}
+#body div div div div#content div#blog div#paging ul {
+	float: left;
+	height: 56px;
+	overflow: hidden;
+}
+#body div div div div#content div#blog div#paging ul li {
+	float: left;
+	height: 56px;
+	margin: 0;
+	width: 51px;
+}
+#body div div div div#content div#blog div#paging ul li a {
+	background: url(../assets/images/interface.png) no-repeat 0 -1027px;
+	color: #1f1005;
+	display: block;
+	line-height: 45px;
+	text-align: center;
+	text-decoration: none;
+	width: 51px;
+}
+#body div div div div#content div#blog div#paging ul li.current a {
+	background: url(../assets/images/interface.png) no-repeat 0 -1098px;
+}
+#body div div div div#sidebar {
+	float: right;
+	height: auto;
+	margin: 0;
+	width: 301px;
+}
+#body div div div div#sidebar h3 {
+	color: #daec18;
+	font-size: 22px;
+	font-style: italic;
+	margin: 0;
+}
+#body div div div div#sidebar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#body div div div div#sidebar ul li#fruitsalad,
+#body div div div div#sidebar ul li#bakeapples {
+	height: 112px;
+	margin: 20px 0 0;
+	padding: 15px 0 23px 13px;
+	width: 287px;
+}
+#body div div div div#sidebar ul li#fruitsalad {
+	background: url(../assets/images/fruitsalad.png) no-repeat;
+}
+#body div div div div#sidebar ul li#fruitsalad h2,
+#body div div div div#sidebar ul li#bakeapples h2 {	
+	font-size: 20px;
+	font-style: italic;
+	margin: 0;
+}
+#body div div div div#sidebar ul li#fruitsalad h2 {
+	color: #ff5400;
+}
+#body div div div div#sidebar ul li#bakeapples h2 {
+	color: #ff0c00;
+}
+#body div div div div#sidebar ul li#fruitsalad p {
+	color: #90a728;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 24px;
+	margin: 5px 0 0;
+}
+#body div div div div#sidebar ul li#fruitsalad p span {
+	display: inline-block;
+	text-indent: 15px;
+}
+#body div div div div#sidebar ul li#bakeapples p span {
+	display: inline-block;
+	text-indent: 30px;
+}
+#body div div div div#sidebar ul li#bakeapples {
+	background: url(../assets/images/bakeapples.png) no-repeat;
+}
+#body div div div div#sidebar ul li#bakeapples p {
+	color: #ff9634;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 24px;
+	margin: 5px 0 0;
+	width: 200px;
+}
+#body div div div div#sidebar ul li#news {
+	background: url(../assets/images/interface.png) no-repeat 0 -231px;
+	height: 124px;
+	margin: 20px 0 0;
+	padding: 23px 20px;
+	width: 260px;
+}
+#body div div div div#sidebar ul li#news p,
+#body div div div div#sidebar ul li#address p,
+#body div div div div#sidebar ul li#news p,
+#footer div:first-child div div:first-child div p {
+	line-height: 24px;
+	margin: 0;
+}
+#body div div div div#sidebar ul li#address p,
+#footer div:first-child div div:first-child div p {
+	color: #b0925e;
+	letter-spacing: 0.05em;
+}
+#body div div div div#sidebar ul li#news p,
+#footer div:first-child div div:first-child div.first p {
+	color: #b0925e;
+	letter-spacing: 0.05em;
+	padding: 0 18px 0 0;
+}
+#body div div div div#sidebar ul li#news h2 {
+	color: #daec18;
+	padding: 0 0 5px;
+}
+#body div div div div#sidebar ul li#news h2,
+#footer div:first-child div div:first-child div.first h3,
+#footer div:first-child div div:first-child div h3 {
+	font-size: 22px;
+	font-style: italic;
+	margin: 0;
+}
+#footer div:first-child div div:first-child div.first h3 a,
+#footer div:first-child div div:first-child div h3 {
+	color: #DAEC18;
+	text-decoration: none;
+}
+#body div div div div#sidebar ul li#address {
+	margin: 38px 0 0;
+	padding: 0 23px;
+}
+#body div div div div#sidebar ul li#address h2 {
+	color: #DAEC18;
+	font-size: 22px;
+	font-style: italic;
+	margin: 0;
+}
+#body div div div div#sidebar div {
+	margin: 0 0 0 30px;
+	width: auto;
+}
+#body div div div div#sidebar div h3 {
+	background: url(../assets/images/separator.png) no-repeat left bottom;
+	padding: 0 0 20px 62px;
+}
+#body div div div div#sidebar div h4 {
+	background: url(../assets/images/separator.png) no-repeat left bottom;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0;
+	padding: 15px 0;
+	text-indent: 20px;
+	width: 220px;
+}
+#body div div div div#sidebar div h4.first a {
+	background: url(../assets/images/interface.png) no-repeat 170px -82px;
+}
+#body div div div div#sidebar div h4 a {
+	background: url(../assets/images/interface.png) no-repeat 170px -24px;
+	display: block;
+	color: #ff8400;
+	text-decoration: none;
+}
+#body div div div div#sidebar div div {
+	background: url(../assets/images/separator.png) no-repeat left bottom;
+	margin: 0;
+	padding: 0 0 0 40px;
+	width: 220px;
+}
+#body div div div div#sidebar div p a {
+	color: #b0925e;
+	text-decoration: none;
+}
+#body div div div div#sidebar div p a span {
+	color: #daec18;
+}
+#footer {
+	background: #4d351f;
+}
+#footer div:first-child {
+	background: none;
+	height: 230px;
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+}
+#footer div:first-child div {
+	display: inline-block;
+	height: auto;
+	margin: 0;
+	width: 960px;
+}
+#footer div:first-child div div:first-child {
+	float: left;
+	width: 630px;
+}
+#footer div:first-child div div:first-child ul {
+	display: inline-block;
+	list-style: none;
+	margin: -35px 0 0;
+	padding: 0;
+	width: 650px;
+}
+#footer div:first-child div div:first-child ul li {
+	background: url(../assets/images/interface.png) no-repeat 0-819px;
+	float: left;
+	height: 122px;
+	margin: 0 0 0 5px;
+	position: relative;
+	width: 320px;
+}
+#footer div:first-child div div:first-child ul li:first-child {
+	margin: 0;
+}
+#footer div:first-child div div:first-child ul li img {
+	left: 10px;
+	position: absolute;
+	top: 10px;
+}
+#footer div:first-child div div:first-child ul li div {
+	background: url(../assets/images/interface.png) no-repeat 0 -231px;
+	float: none;
+	height: 91px;
+	margin: 70px 0 0 10px;
+	padding: 60px 20px 19px;
+	width: 260px;
+}
+#footer div:first-child div div:first-child ul li div h2 {
+	color: #daec18;
+	font-size: 20px;
+	font-style: italic;
+	line-height: 24px;
+	margin: 0;
+	padding: 10px 0 5px;
+}
+#footer div:first-child div div:first-child ul li div p {
+	color: #b0925e;
+	line-height: 24px;
+	margin: 0;
+}
+#body div div div div#content div#blog ul li div p a.readmore {
+	color: #ff8400;
+	display: inline-block;
+	text-decoration: none;
+}
+#body div div div div#content div#blog ul li div p a.readmore:hover {
+	text-decoration: underline;
+}
+#footer div:first-child div div:first-child div.first {
+	background: url(../assets/images/interface.png) no-repeat 0 -231px;
+	
+	height: 136px;
+	margin: 30px 0 0;
+	padding: 15px 20px 23px;
+	width: 260px;
+}
+#footer div:first-child div div:first-child div.first p {
+	letter-spacing: 0.05em;
+	line-height: 24px;
+	margin: 10px 0 0;
+}
+#footer div:first-child div div:first-child div {
+	margin: 30px 0 0 15px;
+	width: 280px;
+}
+#footer div:first-child div div {
+	background: none;
+	float: right;
+	width: 300px;
+}
+#footer div:first-child div div div.section {
+	float: none;
+	margin: 0;
+	padding: 0 0 0 10px;
+	width: 260px;
+}
+#footer div:first-child div div:first-child div.section {
+	margin: 0; 
+	width: auto;
+}
+#footer div:first-child div div:first-child div.section h3 {
+	font-size: 22px;
+}
+#footer div:first-child div div div.section h3 {
+	color: #daec18;
+	font-size: 20px;
+	font-style: italic;
+	margin: 0;
+	padding: 45px 0 0;
+}
+#footer div:first-child div div div.section p {
+	color: #AB967F;
+	letter-spacing: 0.05em;
+	line-height: 24px;
+	margin: 5px 0 0;
+}
+#footer div:first-child div div div.connect {
+	background: url(../assets/images/connect-separator.gif) no-repeat center top;
+	display: inline-block;
+	float: none;
+	margin: 10px 0 0;
+	padding: 5px 0 0;
+	width: 299px;
+}
+#footer div:first-child div div div.connect a {
+	display: block;
+	float: left;
+	height: 31px;
+	text-indent: -99999px;
+}
+#footer div:first-child div div div.connect a.googleplus {
+	background: url(../assets/images/icons.png) no-repeat 0 -224px;
+	margin: 10px 0 0 20px;
+	width: 30px;
+}
+#footer div:first-child div div div.connect a.mail {
+	background: url(../assets/images/icons.png) no-repeat 0 -142px;
+	margin: 10px 0 0 35px;
+	width: 31px;
+}
+#footer div:first-child div div div.connect a.facebook {
+	background: url(../assets/images/icons.png) no-repeat 0 -183px;
+	margin: 10px 0 0 49px;
+	width: 31px;
+}
+#footer div:first-child div div div.connect a.twitter {
+	background: url(../assets/images/icons.png) no-repeat 0 -104px;
+	margin: 10px 0 0 48px;
+	width: 30px;
+}
+#footer div:first-child div div div.section span {
+	background: url(../assets/images/interface.png) no-repeat 0 -116px;
+	display: block;
+	height: 100px;
+	left: -60px;
+	top: -100px;
+	position: absolute;
+	right: 0;
+	width: 366px;
+}
+#footer div:first-child div div div.section span img {
+	margin: 0 0 0 80px;
+}
+#footer div:first-child div div div.section div {
+	background: url(../assets/images/phonenumber.jpg) no-repeat center bottom;
+	float: none;
+	font-size: 20px;
+	font-style: italic;
+	height: 85px;
+	margin: 0;
+	padding: 30px 0 0;	
+	width: 264px;
+}
+#footer div:first-child div div div.section div p {
+	color: #33200f;
+	text-shadow: 0 1px #694d33;
+}
+#footer div {
+	background: #3c2714;
+	min-height: 40px;
+	width: 100%;
+}
+#footer div p.footnote {
+	background: url(../assets/images/footer-border.jpg) no-repeat center top;
+	color: #1c1106;
+	font-size: 12px;
+	line-height: 40px;
+	margin: 0 auto;
+	text-align: center;
+	text-shadow: 0 1px #6c5037;
+	width: 875px;
+}
