@@ -1,3 +1,19 @@
-<p>
-  users works!
-</p>
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+            <th>User Id</th>
+            <th>User Name</th>
+            <th>User Email</th>
+            <th>User Status</th>
+        </thead>
+        <tbody>
+            <tr *ngFor ="let user of users ">
+                <td>{{user.id}}</td>
+                <td>{{user.name}}</td>
+                <td>{{user.email}}</td>
+                <td>{{user.status}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
