@@ -1,22 +1,20 @@
-.example-container {
-    display: flex;
-    flex-direction: column;
-  }
+h2
+{
+  text-align:center;
   
-  .example-container > * {
-    width: 100%;
-  }
-  
-  .example-right-align {
-    text-align: right;
-  }
-  
-  input.example-right-align::-webkit-outer-spin-button,
-  input.example-right-align::-webkit-inner-spin-button {
-    display: none;
-  }
-  
-  input.example-right-align {
-    -moz-appearance: textfield;
-  }
-  
+}
+
+button
+{
+  text-align: 50%;
+}
+.card
+{
+  background-color: transparent;
+}
+input.ng-invalid.ng-dirty
+{
+  border-color: #e91e63 !important;
+  box-shadow:0 1px 0 0  #e91e63 !important;
+
+}

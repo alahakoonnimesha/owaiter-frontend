@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Fooditem } from '../../database/fooditem';
+import { FooditemService } from '../../sharedservices/fooditemservice/fooditem.service';
 
 @Component({
   selector: 'app-menubar',
@@ -6,10 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menubar.component.css']
 })
 export class MenubarComponent implements OnInit {
-
-  constructor() { }
+items:Fooditem[]=[];
+  constructor(private fservice:FooditemService) { }
 
   ngOnInit() {
   }
+
+
 
 }

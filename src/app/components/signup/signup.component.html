@@ -1,44 +1,52 @@
-<div class="container">
-  <div class="row">
-    <div class="offset-3"></div>
-    <div class="col-md-6">
-      <form name="form"  #f="ngForm" (submit)="sendFeedBack()" novalidate class="feedback-form">
-          <!--title-->
-          <div class="form-group">
-              <title>signup</title>
-    
+
+<div>
+ <h2>Sign up</h2>
+    <div class="card">
+      <div class="card-body">
+          <div class="container">
+              <form #signupform="ngForm" (ngSubmit)="createUser()">
+                <div class="form-group" >
+                    <label for="name">Name:</label>
+                    <input type="email" class="form-control" [(ngModel)]="user.name" id="name" placeholder="Enter name" name="name">
+                </div>
+                <div class="form-group" *ngIf="userError?.name">
+                  <span class="text text-danger" >{{userError.name}}</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                    <input type="email" class="form-control"  [(ngModel)]="user.email" id=email placeholder="Enter Email" name="name">
+                </div>
+                <div class="form-group" *ngIf="userError?.email">
+                  <span class="text-danger">{{userError.email}}</span>
+                </div>
+                <div class="form-group" *ngIf="userExists">
+                  <span class="text-danger">User already exists</span>
+                </div>
+                <div class="form-group">
+                    <label for="name">Phone no:</label>
+                    <input type="pno" class="form-control"  [(ngModel)]="user.phoneno" id="pno" placeholder="Enter phone no" name="pno">
+                </div>
+                <div class="form-group" *ngIf="userError?.phoneno">
+                  <span class="text-danger">{{userError.phoneno}}</span>
+                </div>
+                
+                <div class="form-group">
+                  <label for="pwd">Password:</label>
+                  <input type="password" class="form-control" [(ngModel)]="user.password" id="pwd" placeholder="Enter password" name="pwd">
+                </div>
+                <div class="form-group" *ngIf="userError?.password">
+                  <span class="text-danger">{{userError.password}}</span>
+                </div>
+                
+                  <div class="form-group" *ngIf="repwd?.notEqual">Passwords mismatch</div>
+
+                  <input type="submit" ng-disabled="userError"  required class="btn btn-info btn-mx-auto" value="Register">
+              </form>
             </div>
-        <!-- Name -->
-        <div class="form-group">
-          <label for="name">First Name</label>
-          <input type="text"
-                 id="name"
-                 class="form-control"
-                 name="name"
-                 placeholder="Your name"
-                 [(ngModel)]="model.name"
-                 #name="ngModel" >
+                
 
-        </div>
-
-        <!-- Name -->
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="text"
-                 id="email"
-                 class="form-control"
-                 name="email"
-                 placeholder="Your email"
-                 [(ngModel)]="model.email"
-                 #email="ngModel">
-        </div>
-
-        <button type="submit" class="btn btn-info pull-right">
-          <i class="fa fa-envelope-o"></i>
-          <span> Send Feedback</span>
-        </button>
-      </form>
+      </div> 
     </div>
-    <div class="offset-3"></div>
   </div>
-</div>
+  
