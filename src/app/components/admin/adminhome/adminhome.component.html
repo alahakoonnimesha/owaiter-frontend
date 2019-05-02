@@ -1,0 +1,28 @@
+<app-adminmenubar></app-adminmenubar>
+<br>
+<div class="container">
+    <table class="table table-hover">
+        <thead>
+            <th>Order No</th>
+            <th>fooditems</th>
+            <th>Quantity</th>
+            <th>Availability</th>
+            <th>Operations</th>
+            
+        </thead>
+        <tbody>
+            <tr *ngFor ="let item of items ">
+                <td>{{item.orderno}}</td>
+                <td>{{item1.itemname}}</td>
+                <td>{{order.qty}}</td>
+                <td>{{table.availability}}</td>
+                <td>
+                  <div class="btn-toolbar mb-3">
+                    <button type="button" class="btn btn-danger btn-sm" (click)="deleteTable(table)">Delete</button>
+                    <button type="button" class="btn btn-primary btn-sm" data-target="#mymodal"
+                    data-toggle="modal" (click)="editTable(table)">Edit</button>
+                  </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>

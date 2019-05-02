@@ -1,0 +1,70 @@
+<app-adminmenubar></app-adminmenubar>
+<div class="container">
+    <table class="table table">
+        <thead>
+            <th>Table No</th>
+            <th>Description</th>
+            <th>No of Seats</th>
+            <th>Availability</th>
+            <th>Operations</th>
+            
+            
+        </thead>
+        <tbody>
+            <tr *ngFor ="let table of tables ">
+                <td>{{table.tableno}}</td>
+                <td>{{table.description}}</td>
+                <td>{{table.noofseats}}</td>
+                <td>{{table.availability}}</td>
+                <td>
+                  <div class="btn-toolbar mb-3">
+                    <button type="button" class="btn btn-danger btn-sm" (click)="deleteTable(table)">Delete</button>
+                    <button type="button" class="btn btn-primary btn-sm" data-target="#mymodal"
+                    data-toggle="modal" (click)="editTable(table)">Edit</button>
+                  </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+ <div class="container">
+     <button class="btn btn-primary"  (click)="addTable(table)" data-target="#mymodal"
+     data-toggle="modal">Add Table</button>
+<div class="modal" id="mymodal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="text-primary">Add Table/Edit Table</h3>
+            <button type="button" class="close" data-dismiss="modal"> &times; </button>
+            </div>
+            <div class="modal-body">
+                    <div class="container">
+                            <form (ngSubmit)="processform()">
+                              <div class="form-group">
+                                <label for="tno">Table No:</label>
+                                <input type="tno" class="form-control" id="tno" [(ngModel)]="table.tableno" placeholder="Enter table no" name="tno">
+                              </div>
+                              <div class="form-group">
+                                <label for="des">Description:</label>
+                                <input type="des" class="form-control" id="des" [(ngModel)]="table.description" placeholder="Enter description" name="des">
+                              </div>
+                              <div class="form-group">
+                                <label for="noofseats">No of seats:</label>
+                                <input type="noofseats" class="form-control" id="noofseats" [(ngModel)]="table.noofseats"  placeholder="Enter No of seats" name="noofseats">
+                              </div>
+                              <div class="form-group">
+                                    <label for="availability">Availability:</label>
+                                    <input type="availability" class="form-control" id="avai" [(ngModel)]="table.availability"  placeholder="Enter availability" name="availability">
+                                  </div>
+                               
+                                <button type="submit" class="btn btn-success" >Save</button>
+                                <button type="button" class="close" data-dismiss="modal">Cancel</button>
+                            </form>
+                          </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ </div>

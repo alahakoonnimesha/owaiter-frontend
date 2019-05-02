@@ -1,0 +1,13 @@
+
+<div class="card-header">Purchase</div>
+<div class="card-body">
+    <table class="table table-borderless table-sm">
+            <tbody>
+                <tr *ngFor ="let dessert of itemAddedToOrder ">
+                    <td>{{dessert.itemname}}</td>
+                    <td> x {{dessert.qty}}</td>
+                    <td>{{dessert.price}}</td>
+            </tbody>
+    </table>
+</div> 
+<div class="card-footer">Total:</div>

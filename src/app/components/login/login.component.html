@@ -1,0 +1,25 @@
+
+
+ 
+              <div class="container">
+                <h2>Sign In</h2>
+                <div class="card">
+                  <div class="card-body">
+                    <form (submit)="loginUser()" >
+                      <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control"[(ngModel)]="username" id="email" placeholder="Enter email" name="email">
+                      </div>
+                      <div class="form-group">
+                        <label for="pwd">Password:</label>
+                        <input type="password" class="form-control" [(ngModel)]="password" id="password" placeholder="Enter password" name="password">
+                      </div>
+                      <div class="form-group form-check">
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                    </div>
+                  </div>
+              </div>
+              
+ 

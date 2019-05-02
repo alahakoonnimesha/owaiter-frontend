@@ -1,0 +1,85 @@
+<app-adminmenubar></app-adminmenubar>
+<div class="container">
+    <table class="table table">
+        <thead>
+            <th>Item  No</th>
+            <th>Item  Name</th>
+            <th>Type</th>
+            <th>Price</th>
+            <th>Description</th>
+            <th>Image</th>
+            <th>Availability</th>
+            <th>Operations</th>
+            
+        </thead>
+        <tbody>
+            <tr *ngFor ="let item of items ">
+                <td>{{item.itemno}}</td>
+                <td>{{item.itemname}}</td>
+                <td>{{item.itemtype}}</td>
+                <td>{{item.price}}</td>
+                <td>{{item.description}}</td>
+                <td></td>
+                <td>{{item.availability}}</td>
+                <td>
+                  <div class="btn-toolbar mb-3">
+                    <button type="button" class="btn btn-danger btn-sm" (click)="deleteItem(item)">Delete</button>
+                    <button type="button" class="btn btn-primary btn-sm" data-target="#mymodal"
+                    data-toggle="modal" (click)="editItem(item)">Edit</button>
+                  </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+ <div class="container">
+     <button class="btn btn-primary"  (click)="addItem(item)" data-target="#mymodal"
+     data-toggle="modal">Add Table</button>
+<div class="modal" id="mymodal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="text-primary">Add Table</h3>
+            <button type="button" class="close" data-dismiss="modal"> &times; </button>
+            </div>
+            <div class="modal-body">
+                    <div class="container">
+                            <form (ngSubmit)="processform()">
+                              <div class="form-group">
+                                <label for="ino">Item No:</label>
+                                <input type="ino" class="form-control" id="ino" [(ngModel)]="item.itemno" placeholder="Enter item no" name="ino">
+                              </div>
+                              <div class="form-group">
+                                    <label for="iname">Item Name:</label>
+                                    <input type="iname" class="form-control" id="iname" [(ngModel)]="item.itemname" placeholder="Enter item name" name="iname">
+                            </div>
+                            <div class="form-group">
+                                    <label for="itype">Item Type:</label>
+                                    <input type="itype" class="form-control" id="itype" [(ngModel)]="item.itemtype" placeholder="Enter item type" name="itype">
+                            </div>
+                            <div class="form-group">
+                                    <label for="iprice">Price:</label>
+                                    <input type="iprice" class="form-control" id="iprice" [(ngModel)]="item.price" placeholder="Enter price" name="iprice">
+                            </div>
+
+                              <div class="form-group">
+                                <label for="des">Description:</label>
+                                <input type="des" class="form-control" id="des" [(ngModel)]="item.description" placeholder="Enter description" name="des">
+                              </div>
+                              
+                              <div>
+                                  <input type="file" (change)="onFileSelected($event)">
+                                  <button type="button" (click)="onUpload()">Upload</button>
+                              </div>
+                               
+                                <button type="submit" class="btn btn-success" >Save</button>
+                                <button type="button" class="close" data-dismiss="modal">Cancel</button>
+                            </form>
+                          </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ </div>

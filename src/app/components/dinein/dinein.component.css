@@ -1,0 +1,18 @@
+
+.button-wrapper .btn {
+    margin-bottom:5px;
+}
+
+.card {
+    text-align:center;
+    width:80%;
+    border-top: transparent;
+}
+
+.card,.button,.button
+{ display:inline-block}
+
+.footer
+{
+    -ms-text-size-adjust: auto;
+}

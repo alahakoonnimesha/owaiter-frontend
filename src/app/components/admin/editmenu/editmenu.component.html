@@ -1,0 +1,28 @@
+<app-adminmenubar></app-adminmenubar>
+<div class="container">
+    <table class="table table">
+        <thead>
+            <th>Item Id</th>
+            <th>Item Name</th>
+            <th>Item Type</th>
+            <th>Item Price</th>
+            <th>Description</th>
+            <th>Availability</th>
+            
+        </thead>
+        <tbody>
+            <tr *ngFor ="let user of users ">
+                <td>{{user.id}}</td>
+                <td>{{user.name}}</td>
+                <td>{{user.email}}</td>
+                <td>{{user.email}}</td>
+                <td>
+                  <button class="btn btn-danger">Delete</button>
+                  <button class="btn btn-primary">Edit</button>>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <button class="btn btn-primary active">New Item</button>
+
+</div>
